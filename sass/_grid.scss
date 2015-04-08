@@ -1,0 +1,27 @@
+/* Grid */
+.row {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.column {
+    float: left;
+    margin: 2%;
+}
+
+.column.two-third {
+    width: 65%;
+}
+
+.column.one-half {
+    width: 45%;
+}
+
+.column.one-third {
+  width: 32%
+}
+
+.column:last-of-type {
+  margin-right: 0;
+}
