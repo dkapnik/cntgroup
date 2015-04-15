@@ -8,16 +8,33 @@
   $pageTitle = "Contact";
 
 ?>
-<?php include 'header.php'; ?>
-    
-    <div class="row clearfix">
-        <div class="column one-half">
-            <h3>Column Headline</h3>
-            <p>Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+
+  <!-- Include the header and navigation -->
+  <?php include 'header.php'; ?>
+
+<div class="contact">
+    <div class="row">
+      <div class="column one-half">
+          <h2>Get in Touch</h2>
+        <p>Please give us a ring or shoot us an email if you would like to get more information about us and our serivces. We look forward to getting to know you and your business.</p>
         </div>
-        <div class="column one-half">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310839.14558408706!2d13.425136449999998!3d52.50754189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin%2C+Germany!5e0!3m2!1sen!2sus!4v1428016526530" width="400" height="300" frameborder="0" style="border:0"></iframe>
-            </div>
+
+      <!-- Half column with google map -->
+      <div class="column one-half">
+          <h2>Contact Info</h2>
+        <p>6750 East Exposition Avenue, Denver, CO 80224
+            <br>
+        Phone: 303.757.7181
+            <br>
+        Email: info@cntgroup.com
+            <br>
+        Fax: 303.757.7184</p>
+      </div>
+      </div>
     </div>
+
+
+
     
-<?php include 'footer.php'; ?>
+  <!-- Include the footer -->
+  <?php include 'footer.php'; ?>
